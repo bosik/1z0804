@@ -6,7 +6,7 @@ public class DaemonTest
 	{
 		System.err.println("User thread started");
 
-		WorkerThread thread = new WorkerThread();
+		Thread thread = new WorkerThread();
 		// default is the same as parent thread's
 
 		thread.setDaemon(false);
