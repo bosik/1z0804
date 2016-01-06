@@ -1,7 +1,8 @@
 # 1z0804
 Examples for the 1Z0-804 exam
 <ul>
-<li><b>Section 1: Class design</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s00">Section 0: Basics</a></b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s01">Section 1: Class design</a></b></li>
 <ul>
 <li>Item 1: Use access modifiers: <code>private</code>, <code>protected</code>,
 <code>public</code>.</li>
@@ -37,7 +38,7 @@ your class.</li>
 <li>1.7.2. (10) Using Package Members</li>
 </ul>
 </ul>
-<li><b>Section 2: Advanced class design</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s02">Section 2: Advanced class design</a></b></li>
 <ul>
 <li>Item 1: Identify when and how to apply abstract classes.</li>
 <ul>
@@ -62,7 +63,7 @@ your class.</li>
 <li>2.5.1. (17) Enum Types</li>
 </ul>
 </ul>
-<li><b>Section 3: Object-oriented design principles</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s03">Section 3: Object-oriented design principles</a></b></li>
 <ul>
 <li>Item 1: Write code that declares, implements and/or extends interfaces.</li>
 <ul>
@@ -95,7 +96,7 @@ your class.</li>
 <li>(26) Subject</li>
 </ul>
 </ul>
-<li><b>Section 4: Generics and collections</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s04">Section 4: Generics and collections</a></b></li>
 <ul>
 <li>Item 1: Create a generic class.</li>
 <ul>
@@ -146,7 +147,7 @@ your class.</li>
 <li>4.8.5. (48) The <code>SortedMap</code> Interface</li>
 </ul>
 </ul>
-<li><b>Section 5: String processing</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s05">Section 5: String processing</a></b></li>
 <ul>
 <li>Item 1: Search, parse and build strings.</li>
 <ul>
@@ -166,7 +167,7 @@ your class.</li>
 <li>5.3.2. (56) Formatting Numeric Print Output</li>
 </ul>
 </ul>
-<li><b>Section 6: Exceptions and assertions</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s06">Section 6: Exceptions and assertions</a></b></li>
 <ul>
 <li>Item 1: Use <code>throw</code> and <code>throws</code> statements.</li>
 <ul>
@@ -194,7 +195,7 @@ your class.</li>
 <li>6.5.1. (66) Questions and Exercises: Classes (assertion example)</li>
 </ul>
 </ul>
-<li><b>Section 7: Java I/O fundamentals</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s07">Section 7: Java I/O fundamentals</a></b></li>
 <ul>
 <li>Item 1: Read and write data from the console.</li>
 <ul>
@@ -208,7 +209,7 @@ your class.</li>
 <li>6.2.3. (71) Random Access Files</li>
 </ul>
 </ul>
-<li><b>Section 8: Java File I/O (NIO.2)</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s08">Section 8: Java File I/O (NIO.2)</a></b></li>
 <ul>
 <li>Item 1: Use the <code>Path</code> class to operate on file and directory paths.</li>
 <ul>
@@ -242,7 +243,7 @@ your class.</li>
 <li>8.6.1. (83) Watching a Directory for Changes</li>
 </ul>
 </ul>
-<li><b>Section 9: Building Database Applications with JDBC</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s09">Section 9: Building Database Applications with JDBC</a></b></li>
 <ul>
 <li>Item 1: Define the layout of the JDBC API.</li>
 <ul>
@@ -268,7 +269,7 @@ your class.</li>
 <li>9.5.2. (90) Using <code>JdbcRowSet</code> Objects</li>
 </ul>
 </ul>
-<li><b>Section 10: Threads</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s10">Section 10: Threads</a></b></li>
 <ul>
 <li>Item 1: Create and use the <code>Thread</code> class and the <code>Runtime</code> interface.
 </li>
@@ -294,7 +295,7 @@ your class.</li>
 <li>10.4.2. (100) Deadlock</li>
 </ul>
 </ul>
-<li><b>Section 11: Concurrency</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s11">Section 11: Concurrency</a></b></li>
 <ul>
 <li>Item 1: Use <code>java.util.concurrent</code> collections.</li>
 <ul>
@@ -315,7 +316,7 @@ your class.</li>
 <li>11.4.1. (106) Fork/Join</li>
 </ul>
 </ul>
-<li><b>Section 12: Localization</b></li>
+<li><b><a href="https://github.com/bosik/1z0804/tree/master/src/org/bosik/ocjp2/s12">Section 12: Localization</a></b></li>
 <ul>
 <li>Item 1: Read and set the locale by using the Locale object.</li>
 <ul>
