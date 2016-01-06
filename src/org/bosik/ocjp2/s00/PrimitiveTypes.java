@@ -89,4 +89,31 @@ public class PrimitiveTypes
 		System.out.println("float: " + x7);
 		System.out.println("double: " + x8);
 	}
+
+	static
+	{
+		/* Literals are checked at compile time */
+
+		byte b1 = -129; // can't convert int -> byte
+		byte b2 = -128; // ok
+		byte b3 = +127; // ok
+		byte b4 = +128; // can't convert int -> byte
+
+		short s1 = -32_769; // can't convert int -> short
+		short s2 = -32_768; // ok
+		short s3 = +32_767; // ok
+		short s4 = +32_768; // can't convert int -> short
+
+		int i1 = -2147483649; // out of range
+		int i2 = -2147483648; // ok
+		int i3 = +2147483647; // ok
+		int i4 = +2147483648; // out of range
+
+		/* Results of simple expressions are checked at compile time */
+
+		byte bt1 = 120 + 8; // can't convert int -> byte
+		byte bt2 = 64 * 2; // can't convert int -> byte
+		byte bt3 = 1 << 7; // can't convert int -> byte
+		byte bt4 = 255 - 255; // ok
+	}
 }
