@@ -7,25 +7,25 @@ public class ExtendsTest
 {
 	public static void main(String[] args)
 	{
-		Integer n = new Integer(5);
+		Number n = new Integer(5);
 
-		List<? extends Integer> listA = new ArrayList<>();
+		List<? extends Number> listA = new ArrayList<>();
 		listA.add(n); // CE: the method in not applicable: wrong capture
 		n = listA.get(0); // ok
 
 		// Actual signatures:
 		// * add(null e) -- for input, use lower (strongest) bound; it's undefined, hence,
 		// effectively, nothing except null can be added
-		// * Integer get(int) -- for output, use upper (weakest) bound
+		// * Number get(int) -- for output, use upper (weakest) bound
 
 		// =========================================================================
 
-		List<? super Integer> listB = new ArrayList<>();
+		List<? super Number> listB = new ArrayList<>();
 		listB.add(n); // ok
-		n = listB.get(0); // CE: can't convert capture to Integer
+		n = listB.get(0); // CE: can't convert capture to Number
 
 		// Actual signatures:
-		// * add(Integer) -- for input, use lower (strongest) bound
+		// * add(Number) -- for input, use lower (strongest) bound
 		// * Object get(int) -- for output, use upper (weakest) bound
 	}
 }
