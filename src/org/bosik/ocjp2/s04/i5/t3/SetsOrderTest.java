@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Sets
+public class SetsOrderTest
 {
 	private static void test(Set<String> set)
 	{
