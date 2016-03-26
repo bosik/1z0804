@@ -39,5 +39,12 @@ public class FormatTest
 
 		System.out.format("%b%n", false);
 		System.out.format("%-5s%n", "xx");
+		System.out.println(String.format("%(d", -5));
+		System.out.println(String.format("%06d", -5));
+
+		System.out.println(new StringBuilder("foobar") + (42 + ""));
+
+		System.out.println(String.format("%b", new Object()));
+		System.out.println(String.format("%b", null));
 	}
 }
